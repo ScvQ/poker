@@ -17,7 +17,7 @@ public class DataSource implements DBConfig {
 
 	@Override
 	public String getUrl() {
-		return "jdbc:mysql://172.16.50.21:3306/zhouqi";
+		return "jdbc:mysql:///app";
 	}
 
 	@Override
